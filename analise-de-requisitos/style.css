@@ -1,0 +1,11 @@
+body {
+  background: black;
+  color: lime;
+}
+.template {
+  padding: 20px 15px;
+  text-align: center;
+}
+.white-text {
+	color: white;
+}
