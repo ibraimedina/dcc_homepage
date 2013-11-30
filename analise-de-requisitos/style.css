@@ -1,11 +1,18 @@
 body {
-  background: black;
-  color: lime;
+  background-color: #202020;
+  color: #DCCDCC;
 }
 .template {
   padding: 20px 15px;
   text-align: center;
 }
-.white-text {
-	color: white;
+
+.light-colored-text {
+//	color: mediumaquamarine;
+	color: lightseagreen;
+}
+
+div .margin-vertical-20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
