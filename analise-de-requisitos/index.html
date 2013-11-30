@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="description" content="">
-	    <meta name="author" content="">
-	
-	    <title>Homepage de Ibraim Medina</title>
-	
-	    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-	    <link href="style.css" rel="stylesheet">
-	</head>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
- 	<body>
+<title>Homepage de Ibraim Medina</title>
 
-    	<div class="container">
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
 
-			<div class="template">
-				<h1 class="light-colored-text">Homepage de Ibraim Medina</h1>
+<body>
+
+	<div class="container">
+
+		<div class="template">
+			<h1 class="light-colored-text">Homepage de Ibraim Medina</h1>
+		</div>
+
+		<p class="lead">Aguarde, os resultados serao publicados em
+			breve...</p>
+		<br /> <br />
+		<h3>Projeto Orientado em Computação</h3>
+		<p>
+			Análise e comparação entre Engenharia de Requisitos tradicional e
+			ágil: <a
+				href=http://homepages.dcc.ufmg.br/~ibraimedina/poc/monografia_ibraim_medina.pdf>Download
+				PDF</a>
+		</p>
+
+		<div class="row margin-vertical-20">
+			<div class="col-sm-6">
+				<h4>Questão 1</h4>
+				<p>Texto da questão 1 é sobre tal pergunta e talz e blah</p>
 			</div>
-		
-			<p class="lead">Aguarde, os resultados serao publicados em breve...</p>
-		  	<br/>
-		  	<br/>
-			<h3>Projeto Orientado em Computação</h3>
-			<p>Análise e comparação entre Engenharia de Requisitos tradicional e ágil:
-			<a href=http://homepages.dcc.ufmg.br/~ibraimedina/poc/monografia_ibraim_medina.pdf>Download PDF</a> </p>
-
-			<div class="row margin-vertical-20">
-				<div class="col-sm-6">
-					<h4>Questão 1</h4>
-					<p>Texto da questão 1 é sobre tal pergunta e talz e blah</p>
-				</div>
-				<div class="col-sm-6">
-					<canvas id="myChart" width="400" class="img-responsive"></canvas>
-				</div>
-				
+			<div class="col-sm-6">
+				<canvas id="myChart" width="400" class="img-responsive"></canvas>
 			</div>
-			
-    	</div>
 
-	    <script src="../bootstrap/jquery-1.10.2.min.js"></script>
-	    <script src="../bootstrap/js/bootstrap.min.js"></script>
-	    <script src="../chartjs/Chart.min.js"></script>
-	    <script>
-	    	var data = {
-	    			labels : ["January","February","March","April","May","June","July"],
-	    			datasets : [
-	    				{
-	    					fillColor : "rgba(220,220,220,0.5)",
-	    					strokeColor : "rgba(220,220,220,1)",
-	    					pointColor : "rgba(220,220,220,1)",
-	    					pointStrokeColor : "#fff",
-	    					data : [65,59,90,81,56,55,40]
-	    				}
-	    			]
-	    		}
-	    	
-	    	var options = {
-	    			scaleLineColor : "rgba(0,0,0,.1)",	    			
-	    	}
-	  		
-	    	var ctx = document.getElementById("myChart").getContext("2d");
-	    	new Chart(ctx).Line(data,options);
-	    </script>
-	    
-	    
-  </body>
+		</div>
+
+	</div>
+
+	<script src="../bootstrap/jquery-1.10.2.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../chartjs/Chart.min.js"></script>
+	<script>
+		var data = {
+			labels : [ "January", "February", "March", "April", "May", "June",
+					"July" ],
+			datasets : [ {
+				fillColor : "rgba(220,220,220,0.5)",
+				strokeColor : "rgba(220,220,220,1)",
+				pointColor : "rgba(220,220,220,1)",
+				pointStrokeColor : "#fff",
+				data : [ 65, 59, 90, 81, 56, 55, 40 ]
+			} ]
+		}
+
+		var options = {
+			scaleLineColor : "rgba(0,0,0,.1)",
+		}
+
+		var ctx = document.getElementById("myChart").getContext("2d");
+		new Chart(ctx).Line(data, options);
+	</script>
+
+
+</body>
 </html>
 
