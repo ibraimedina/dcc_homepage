@@ -1,18 +1,20 @@
 body {
-  background-color: #202020;
-  color: #DCCDCC;
-}
-.template {
-  padding: 20px 15px;
-  text-align: center;
+    background-color: #202020;
+    color: #DCCDCC;
 }
 
-.light-colored-text {
-//	color: mediumaquamarine;
-	color: lightseagreen;
+
+.page-title {
+    padding: 50px 15px;
+    text-align: center;
+    color: goldenrod;
 }
 
-div .margin-vertical-20 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+
+.question-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+// .question-section:hover {
+//	background-color: #181818; 
+//}

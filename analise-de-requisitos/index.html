@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Enable zoom in mobile gadgets-->
 
-<title>Homepage de Ibraim Medina</title>
-
-<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+    <title>~ibraimedina - Análise de Requisitos</title>
+	
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
+    <div class="container">
+    
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#navbar_content">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../">~ibraimedina</a>
+			</div>
 
-	<div class="container">
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div id="navbar_content" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="../icc">ICC</a></li>
+					<li class="active"><a>Análise de requisitos</a></li>
+					<li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Campeonato do DCC <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a class="navbar-link" target="null" href="http://campeonatodcc.com.br/index.php/classificacaolp">Laudelino Pereira</a></li>
+							<li><a class="navbar-link" target="null" href="http://campeonatodcc.com.br/index.php/classificacaong">Negosvaldo</a></li>
+							<li><a class="navbar-link" target="null" href="http://campeonatodcc.com.br/index.php/classificacaoop">Os Perebas</a></li>
+							<li class="divider"></li>
+							<li><a class="navbar-link" target="null" href="http://facebook.com/inimigosdotp">Inimigos do TP</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</nav>
+		
+		
 
-		<div class="template">
-			<h1 class="light-colored-text">Homepage de Ibraim Medina</h1>
+
+		<div class="page-title">
+			<h1> Análise de Requisitos </h1>
 		</div>
-
-		<p class="lead">Aguarde, os resultados serao publicados em
-			breve...</p>
-		<br /> <br />
-		<h3>Projeto Orientado em Computação</h3>
-		<p>
-			Análise e comparação entre Engenharia de Requisitos tradicional e
-			ágil: <a
-				href=http://homepages.dcc.ufmg.br/~ibraimedina/poc/monografia_ibraim_medina.pdf>Download
-				PDF</a>
+		
+		<p class="lead">
+			Aguarde, os resultados serao publicados em breve...
 		</p>
-
-		<div class="row margin-vertical-20">
+		<br />
+		
+		<br />
+		<h3>Projeto Orientado em Computação</h3>
+		
+		<p>
+			Análise e comparação entre Engenharia de Requisitos tradicional e ágil:
+			<a href=http://homepages.dcc.ufmg.br/~ibraimedina/poc/monografia_ibraim_medina.pdf>Download PDF</a>
+		</p>
+	
+		<section class="row question-section">
 			<div class="col-sm-6">
 				<h4>Questão 1</h4>
-				<p>Texto da questão 1 é sobre tal pergunta e talz e blah</p>
+				<p>
+					Texto da questão 1 é sobre tal pergunta e talz e blah
+				</p>
 			</div>
 			<div class="col-sm-6">
-				<canvas id="myChart" width="400" class="img-responsive"></canvas>
+				<canvas id="myChart" width="500" class="img-responsive"></canvas>
 			</div>
-
-		</div>
+	
+		</section>
 
 	</div>
 
