@@ -3,18 +3,25 @@ body {
     color: #DCCDCC;
 }
 
-
 .page-title {
     padding: 50px 15px;
     text-align: center;
     color: goldenrod;
 }
 
-
 .question-section {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-// .question-section:hover {
-//	background-color: #181818; 
-//}
+
+.question-section:hover {
+ 
+}
+
+.bkgr-even-question {
+	background-color: #202020;
+}
+
+.bkgr-odd-question {
+	background-color: #333333;
+}

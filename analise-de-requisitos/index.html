@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -12,8 +13,10 @@
 </head>
 
 <body>
+
     <div class="container">
-    
+
+
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -27,7 +30,6 @@
 				<a class="navbar-brand" href="../">~ibraimedina</a>
 			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div id="navbar_content" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="../icc">ICC</a></li>
@@ -47,63 +49,204 @@
 			<!-- /.navbar-collapse -->
 		</nav>
 		
-		
-
 
 		<div class="page-title">
 			<h1> Análise de Requisitos </h1>
 		</div>
-		
-		<p class="lead">
-			Aguarde, os resultados serao publicados em breve...
-		</p>
-		<br />
-		
-		<br />
-		<h3>Projeto Orientado em Computação</h3>
-		
+
+		<h3> Projeto Orientado em Computação </h3>
 		<p>
-			Análise e comparação entre Engenharia de Requisitos tradicional e ágil:
-			<a href=http://homepages.dcc.ufmg.br/~ibraimedina/poc/monografia_ibraim_medina.pdf>Download PDF</a>
+			A
+			<a href="../poc/monografia_ibraim_medina.pdf" title="Visualizar poster" target="null">monografia</a>
+			com o tema "Análise e comparação entre engenharia de requisitos tradicional e ágil",
+			cujo autor é Ibraim Medina, foi apresentada para os alunos e professores do Departamento de Ciẽncia
+			da Computação da 
+			<span title="Universidade Federal de Minas Gerais">UFMG</span>
+			ao final do
+			<span title="segundo">2º</span>
+			semestre do ano de 2013 através de um
+			<a href="../poc/poster2_ibraim_medina.pdf" title="Visualizar poster" target="null">poster</a>
+			exposto na seção final da disciplina de Projeto Orientado em Computação II.
+			<br/>
+			Nesta página, são apresentados os resultados de uma pesquisa que foi parte do trabalho realizado
+			nos dois semestres de 2013. Tal pesquisa consistiu em aplicar um questionário com
+			<span title="nove">9</span>
+			questões, aberto ao público de forma que fosse obtida uma quantidade aceitável de respostas para
+			viabilizar a comparação de metodologias dentro do estudo. 
 		</p>
-	
-		<section class="row question-section">
-			<div class="col-sm-6">
-				<h4>Questão 1</h4>
-				<p>
-					Texto da questão 1 é sobre tal pergunta e talz e blah
-				</p>
-			</div>
-			<div class="col-sm-6">
-				<canvas id="myChart" width="500" class="img-responsive"></canvas>
-			</div>
-	
-		</section>
+		
+		<h3> Obrigado </h3>
+		<p>
+            Se você respondeu ao 
+            <a href="http://goo.gl/ev44ec" title="Acessar questionário">questionário</a>
+            e veio a esta página visualizar os resultados, gostaria
+            primeiramente de agradecê-lo pela contribuição muito importante para a pesquisa realizada.
+		</p>
+		<p>
+		    Abaixo seguem as estatísticas para cada pergunta contida no questionário, juntamente com
+		    esclarecimentos para os dados obtidos e agrupados. Caso prefira, também é possível analisar os
+		    <a href="https://docs.google.com/spreadsheet/ccc?key=0Asx4Rr-oZMKWdEQxUlVXU2VZQ19PekhkWFRydlhiVFE&usp=sharing" title="Visualizar respostas" target="null">dados</a>
+		    na íntegra.
+		</p>
+    </div>
 
-	</div>
+    <div class="bkgr-odd-question">
+	    <div class="container">
+			<section class="row question-section">
+				<div class="col-sm-6">
+					<h4>Questão 1</h4>
+					<p>
+						Texto da questão 1
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<canvas id="q1Chart" width="500" class="img-responsive"></canvas>
+				</div>
+			</section>
+	    </div>
+    </div>
+	
+	<div class="bkgr-even-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6">
+                    <h4>Questão 2</h4>
+                    <p>
+                        Texto da questão 2:
+                        <br/>
+                        Sim = 79,55%
+                        <br/>
+                        Não = 20,45%
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <h4>Questão 3</h4>
+                    <p>
+                        Texto da questão 3:
+                        <br/>
+                        Sim = 77,27%
+                        <br/>
+                        Não = 22,73%
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="bkgr-odd-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6 col-sm-push-6">
+                    <h4>Questão 4</h4>
+                    <p>
+                        Texto da questão 4
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <canvas id="q4Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="bkgr-even-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6">
+                    <h4>Questão 5</h4>
+                    <p>
+                        Texto da questão 5
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <canvas id="q5Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+            <section class="row question-section">
+                <div class="col-sm-6 col-sm-push-6">
+                    <h4>Questão 6</h4>
+                    <p>
+                        Texto da questão 6
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <canvas id="q6Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="bkgr-odd-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6">
+	                
+                    <h4>Questão 7</h4>
+                    <p>
+                        Texto da questão 7
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <canvas id="q7Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="bkgr-even-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6 col-sm-push-6">
+                    <h4>Questão 8</h4>
+                    <p>
+                        Texto da questão 8
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <canvas id="q8Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="bkgr-odd-question">
+        <div class="container">
+            <section class="row question-section">
+                <div class="col-sm-6">
+                    <h4>Questão 9</h4>
+                    <p>
+                        Texto da questão 9
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <canvas id="q9Chart" width="500" class="img-responsive"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
 
+
+    <!--     JavaScript     -->
 	<script src="../bootstrap/jquery-1.10.2.min.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
 	<script src="../chartjs/Chart.min.js"></script>
+	
+    <!-- 	Build charts   -->
 	<script>
-		var data = {
-			labels : [ "January", "February", "March", "April", "May", "June",
-					"July" ],
-			datasets : [ {
-				fillColor : "rgba(220,220,220,0.5)",
-				strokeColor : "rgba(220,220,220,1)",
-				pointColor : "rgba(220,220,220,1)",
-				pointStrokeColor : "#fff",
-				data : [ 65, 59, 90, 81, 56, 55, 40 ]
-			} ]
-		}
-
-		var options = {
-			scaleLineColor : "rgba(0,0,0,.1)",
-		}
-
-		var ctx = document.getElementById("myChart").getContext("2d");
-		new Chart(ctx).Line(data, options);
+	    var colors = ["goldenrod", "chocolate", "saddlebrown", "wheat", "rosybrown",
+	                  "darkKhaki", "sandybrown", "sienna", "burlywood"];
+		
+		//QUESTION 1
+		var data = [ { value: 28, color: colors[0] },
+                     { value:  4, color: colors[1] },
+                     { value:  4, color: colors[2] },
+                     { value:  3, color: colors[3] },
+		             { value:  3, color: colors[4] },
+		             { value:  2, color: colors[5] }
+	    ]
+	    var options = {}
+		var ctx = document.getElementById("q1Chart").getContext("2d");
+		new Chart(ctx).Pie(data,options);
 	</script>
 
 
